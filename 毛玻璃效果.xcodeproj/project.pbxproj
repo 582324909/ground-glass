@@ -13,6 +13,7 @@
 		C44F78BA1E14ABEA00DBDE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44F78B81E14ABEA00DBDE86 /* Main.storyboard */; };
 		C44F78BC1E14ABEA00DBDE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44F78BB1E14ABEA00DBDE86 /* Assets.xcassets */; };
 		C44F78BF1E14ABEA00DBDE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44F78BD1E14ABEA00DBDE86 /* LaunchScreen.storyboard */; };
+		C44F78CC1E14AC7900DBDE86 /* BlurEffectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F78CB1E14AC7900DBDE86 /* BlurEffectMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C44F78BB1E14ABEA00DBDE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44F78BE1E14ABEA00DBDE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44F78C01E14ABEA00DBDE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44F78CA1E14AC7900DBDE86 /* BlurEffectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurEffectMenu.h; sourceTree = "<group>"; };
+		C44F78CB1E14AC7900DBDE86 /* BlurEffectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurEffectMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		C44F78AE1E14ABEA00DBDE86 /* 毛玻璃效果 */ = {
 			isa = PBXGroup;
 			children = (
+				C44F78CA1E14AC7900DBDE86 /* BlurEffectMenu.h */,
+				C44F78CB1E14AC7900DBDE86 /* BlurEffectMenu.m */,
 				C44F78B21E14ABEA00DBDE86 /* AppDelegate.h */,
 				C44F78B31E14ABEA00DBDE86 /* AppDelegate.m */,
 				C44F78B51E14ABEA00DBDE86 /* ViewController.h */,
@@ -153,6 +158,7 @@
 			files = (
 				C44F78B71E14ABEA00DBDE86 /* ViewController.m in Sources */,
 				C44F78B41E14ABEA00DBDE86 /* AppDelegate.m in Sources */,
+				C44F78CC1E14AC7900DBDE86 /* BlurEffectMenu.m in Sources */,
 				C44F78B11E14ABEA00DBDE86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
